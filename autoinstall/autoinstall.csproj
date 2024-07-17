@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\audacity.png" />
+    <None Remove="icons\blender.png" />
+    <None Remove="icons\brave.png" />
+    <None Remove="icons\chrome.png" />
+    <None Remove="icons\discord.png" />
+    <None Remove="icons\epicgames.png" />
+    <None Remove="icons\everything.png" />
+    <None Remove="icons\firefox.png" />
+    <None Remove="icons\notepadplusplus.png" />
+    <None Remove="icons\obs.png" />
+    <None Remove="icons\sharex.png" />
+    <None Remove="icons\steam.png" />
+    <None Remove="icons\vlc.png" />
+    <None Remove="icons\vscode.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\audacity.png" />
+    <Resource Include="icons\blender.png" />
+    <Resource Include="icons\brave.png" />
+    <Resource Include="icons\chrome.png" />
+    <Resource Include="icons\discord.png" />
+    <Resource Include="icons\epicgames.png" />
+    <Resource Include="icons\everything.png" />
+    <Resource Include="icons\firefox.png" />
+    <Resource Include="icons\notepadplusplus.png" />
+    <Resource Include="icons\obs.png" />
+    <Resource Include="icons\sharex.png" />
+    <Resource Include="icons\steam.png" />
+    <Resource Include="icons\vlc.png" />
+    <Resource Include="icons\vscode.png" />
+  </ItemGroup>
+
+</Project>

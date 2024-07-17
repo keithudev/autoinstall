@@ -1,0 +1,15 @@
+﻿<Window x:Class="autoinstall.Installation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Installing..." Height="160" Width="477" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Image x:Name="AppIcon" Width="32" Height="32"/>
+                <TextBlock x:Name="AppName" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </StackPanel>
+            <ProgressBar x:Name="ProgressBar" Height="25" Margin="10"/>
+            <TextBlock x:Name="ProgressText" VerticalAlignment="Center" Margin="10,0,10,10"/>
+        </StackPanel>
+    </Grid>
+</Window>
