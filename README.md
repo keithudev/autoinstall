@@ -1,11 +1,13 @@
 # autoinstall
-![autoinstall](https://github.com/user-attachments/assets/8529d47b-1875-491c-8742-7430b1716b65)
+![autoinstallnew](https://github.com/user-attachments/assets/98297d65-856e-4148-95d2-e122f0160c05)
 
-### An alternative of Ninite, save time installing apps!
+<div align="center">
 
 
+### An alternative to Ninite, save time installing apps!
 ### [Download](https://github.com/keithudev/autoinstall/releases)
 
+</div>
 
 ## Want to contribute?
 Contribute by adding more apps, since it is very difficult to add them one by one.
@@ -29,6 +31,6 @@ To add an app go to the `Apps.cs` file, all the apps will be there.
 ```
 
 ### How to add an icon?
-1. Add the icon image to the "icons" folder (it must be in low quality, to save space).
-2. Add `<None Remove="icons\icon.png" />` in the `<ItemGroup>` in `autoinstall.csproj`
-3. Add `<Resource Include="icons\icon.png" />` in the second `<ItemGroup>` in `autoinstall.csproj`
+1. Add the icon image to the `icons` folder (it must be in low quality, to save space).
+2. Add `<None Remove="icons\icon.png" />` in the `<ItemGroup>` in `autoinstall.csproj`.
+3. Add `<Resource Include="icons\icon.png" />` in the second `<ItemGroup>` in `autoinstall.csproj`.
